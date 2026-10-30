@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakhmatullaeva Orasta — Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .glass { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(12px); }
+    .dark-glass { background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px); }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-indigo-500 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 dark-glass border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+        Orasta.dev
+      </a>
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-indigo-400 transition-colors">About</a>
+        <a href="#experience" class="hover:text-indigo-400 transition-colors">Experience</a>
+        <a href="#projects" class="hover:text-indigo-400 transition-colors">Projects</a>
+        <a href="#publications" class="hover:text-indigo-400 transition-colors">Research</a>
+        <a href="#media" class="hover:text-indigo-400 transition-colors">Podcast</a>
+        <a href="#certificates" class="hover:text-indigo-400 transition-colors">Certificates</a>
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="https://github.com/OrastaRakhmatullayeva" target="_blank" class="p-2 text-slate-400 hover:text-white transition-colors"><i class="fab fa-github text-lg"></i></a>
+        <a href="https://www.linkedin.com/in/orasta-raxmatullayeva-bab491386" target="_blank" class="p-2 text-slate-400 hover:text-white transition-colors"><i class="fab fa-linkedin text-lg"></i></a>
+        <a href="mailto:orastaraxmatullayeva22@gmail.com" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2 rounded-full transition-all">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="about" class="pt-32 pb-20 px-6 max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-12 gap-12 items-center">
+      <div class="md:col-span-8 space-y-6">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold">
+          <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+          <span>Computer & Information Engineering Student</span>
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight">
+          Rakhmatullaeva Orasta
+        </h1>
+        <p class="text-lg text-slate-300 max-w-2xl font-light leading-relaxed">
+          Senior student in Computer and Information Engineering at <strong class="text-white font-medium">INHA University in Tashkent</strong>. Specialized in AI Engineering, Data Engineering, and Embedded Systems. Applied Researcher focused on automated computer vision and legal ML frameworks.
+        </p>
+        
+        <div class="flex flex-wrap gap-4 pt-2">
+          <div class="flex items-center space-x-2 text-xs text-slate-400 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg">
+            <i class="fas fa-university text-indigo-400"></i>
+            <span>INHA University Tashkent</span>
+          </div>
+          <div class="flex items-center space-x-2 text-xs text-slate-400 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg">
+            <i class="fas fa-envelope text-indigo-400"></i>
+            <span>orastaraxmatullayeva22@gmail.com</span>
+          </div>
+          <div class="flex items-center space-x-2 text-xs text-slate-400 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg">
+            <i class="fas fa-phone text-indigo-400"></i>
+            <span>+998 88 317 23 02</span>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-4 pt-4">
+          <a href="#certificates" class="bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-6 py-3 rounded-xl transition-all shadow-lg shadow-indigo-600/20">
+            View Verified Credentials
+          </a>
+          <a href="https://github.com/OrastaRakhmatullayeva" target="_blank" class="bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 font-semibold px-6 py-3 rounded-xl transition-all">
+            <i class="fab fa-github mr-2"></i>GitHub Profile
+          </a>
+        </div>
+      </div>
+
+      <div class="md:col-span-4 flex justify-center">
+        <div class="relative group">
+          <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
+          <div class="relative bg-slate-900 border border-slate-800 p-6 rounded-2xl text-center space-y-4">
+            <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-tr from-indigo-600 to-cyan-500 p-1">
+              <div class="w-full h-full rounded-full bg-slate-950 flex items-center justify-center text-3xl font-bold text-indigo-400">
+                OR
+              </div>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-white">Rakhmatullaeva Orasta</h3>
+              <p class="text-xs text-slate-400">Data & AI Engineer</p>
+            </div>
+            <div class="pt-2 border-t border-slate-800 grid grid-cols-2 gap-2 text-left text-xs">
+              <div>
+                <span class="block text-slate-500">Academic Standing</span>
+                <span class="font-semibold text-slate-200">Gold Medalist</span>
+              </div>
+              <div>
+                <span class="block text-slate-500">Publications</span>
+                <span class="font-semibold text-indigo-400">2 Papers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section id="experience" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-900">
+    <h2 class="text-2xl font-bold text-white mb-8 flex items-center space-x-3">
+      <i class="fas fa-briefcase text-indigo-400"></i>
+      <span>Professional Experience</span>
+    </h2>
+    <div class="space-y-6">
+      
+      <!-- Experience 1 -->
+      <div class="bg-slate-900/50 border border-slate-800/80 p-6 rounded-2xl hover:border-slate-700 transition-all">
+        <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+          <div>
+            <h3 class="text-lg font-bold text-white">AI Engineer</h3>
+            <p class="text-sm text-indigo-400">DATA SMART SOLUTIONS private company</p>
+          </div>
+          <span class="text-xs text-slate-500 mt-1 md:mt-0 font-mono">02/2026 – 06/2026</span>
+        </div>
+        <ul class="list-disc list-inside text-sm text-slate-300 space-y-1.5 font-light">
+          <li>Fine-tuned PyTorch & LangChain LLM workflows on legal datasets for automated analysis.</li>
+          <li>Engineered predictive risk analytics models to profile legal risk factors efficiently.</li>
+        </ul>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="bg-slate-900/50 border border-slate-800/80 p-6 rounded-2xl hover:border-slate-700 transition-all">
+        <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+          <div>
+            <h3 class="text-lg font-bold text-white">Data Engineer & Analyst</h3>
+            <p class="text-sm text-indigo-400">KAFIL Insurance Company</p>
+          </div>
+          <span class="text-xs text-slate-500 mt-1 md:mt-0 font-mono">06/2026 – 08/2026</span>
+        </div>
+        <ul class="list-disc list-inside text-sm text-slate-300 space-y-1.5 font-light">
+          <li>Aggregated and structured nationwide insurance data pipelines for business intelligence.</li>
+          <li>Designed executive market dashboard reports using Power BI and Tableau.</li>
+        </ul>
+      </div>
+
+      <!-- Experience 3 -->
+      <div class="bg-slate-900/50 border border-slate-800/80 p-6 rounded-2xl hover:border-slate-700 transition-all">
+        <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+          <div>
+            <h3 class="text-lg font-bold text-white">Python Backend Developer</h3>
+            <p class="text-sm text-indigo-400">TILMOCH Startup Project</p>
+          </div>
+          <span class="text-xs text-slate-500 mt-1 md:mt-0 font-mono">10/2024 – Present</span>
+        </div>
+        <ul class="list-disc list-inside text-sm text-slate-300 space-y-1.5 font-light">
+          <li>Built Python backend translation APIs supporting dynamic dictionary scaling in PostgreSQL.</li>
+          <li>Optimized database queries and rest API endpoints for real-time localization responses.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Research & Publications Section -->
+  <section id="publications" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-900">
+    <h2 class="text-2xl font-bold text-white mb-8 flex items-center space-x-3">
+      <i class="fas fa-newspaper text-indigo-400"></i>
+      <span>Research & Publications</span>
+    </h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-2xl space-y-3">
+        <span class="text-xs font-semibold px-2.5 py-1 bg-indigo-500/10 text-indigo-400 rounded-md border border-indigo-500/20">Computer Vision Paper</span>
+        <h3 class="text-lg font-bold text-white leading-snug">Face Recognition-Based Performance System Automation</h3>
+        <p class="text-xs text-slate-400">Journal: Science and Innovation International Journal (2026)</p>
+        <p class="text-xs text-slate-300 font-light leading-relaxed">
+          Engineered an automated attendance tracking mobile framework achieving 99.67% face recognition accuracy and reducing pedagogical verification time by 87%.
+        </p>
+        <a href="https://zenodo.org/records/19178521" target="_blank" class="inline-flex items-center text-xs text-indigo-400 hover:text-indigo-300 font-medium pt-2">
+          <span>Read Paper on Zenodo</span>
+          <i class="fas fa-external-link-alt ml-1.5"></i>
+        </a>
+      </div>
+
+      <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-2xl space-y-3">
+        <span class="text-xs font-semibold px-2.5 py-1 bg-emerald-500/10 text-emerald-400 rounded-md border border-emerald-500/20">Data Science Paper</span>
+        <h3 class="text-lg font-bold text-white leading-snug">Data-Driven Environmental Solutions: EcoCups Startup Experiment</h3>
+        <p class="text-xs text-slate-400">Journal: Science and Innovation Journal (2026)</p>
+        <p class="text-xs text-slate-300 font-light leading-relaxed">
+          Analyzed nationwide single-use plastic waste metrics in Uzbekistan across 80M annual cup usages and benchmarked MVP adoption across cafes.
+        </p>
+        <a href="https://zenodo.org/records/19659548" target="_blank" class="inline-flex items-center text-xs text-emerald-400 hover:text-emerald-300 font-medium pt-2">
+          <span>Read Paper on Zenodo</span>
+          <i class="fas fa-external-link-alt ml-1.5"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Podcast & Media Section -->
+  <section id="media" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-900">
+    <h2 class="text-2xl font-bold text-white mb-8 flex items-center space-x-3">
+      <i class="fas fa-podcast text-indigo-400"></i>
+      <span>Featured Podcast & Media</span>
+    </h2>
+    <div class="bg-slate-900/70 border border-slate-800 p-6 md:p-8 rounded-2xl grid md:grid-cols-12 gap-8 items-center">
+      <div class="md:col-span-7 aspect-video rounded-xl overflow-hidden bg-slate-950 border border-slate-800">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/0kkWYjz_noc" title="Academic Podcast" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="md:col-span-5 space-y-4">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 text-xs font-semibold">
+          <i class="fab fa-youtube"></i>
+          <span>Academic Interview</span>
+        </div>
+        <h3 class="text-xl font-bold text-white">AI Frontiers & Global Tech Education</h3>
+        <p class="text-sm text-slate-300 font-light leading-relaxed">
+          In-depth dialogue with INHA University AI Professor Oybek Eraliev exploring machine learning roadmap development, international research standards, and edge deployment practices.
+        </p>
+        <div class="pt-2">
+          <a href="https://youtu.be/0kkWYjz_noc?si=31bxh9fQOyQHizrU" target="_blank" class="inline-flex items-center space-x-2 text-xs font-semibold text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 px-4 py-2.5 rounded-xl transition-all">
+            <i class="fab fa-youtube text-red-500 text-sm"></i>
+            <span>Watch Full Podcast on YouTube</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Projects Section -->
+  <section id="projects" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-900">
+    <h2 class="text-2xl font-bold text-white mb-8 flex items-center space-x-3">
+      <i class="fas fa-code text-indigo-400"></i>
+      <span>GitHub Open-Source Projects</span>
+    </h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <div class="bg-slate-900/50 border border-slate-800 p-6 rounded-2xl space-y-4 hover:border-slate-700 transition-all">
+        <div class="flex justify-between items-start">
+          <h3 class="text-lg font-bold text-white">GameStop Revenue Web Scraping</h3>
+          <a href="https://github.com/OrastaRakhmatullayeva/gamestop-revenue-webscraping" target="_blank" class="text-slate-400 hover:text-white"><i class="fab fa-github text-lg"></i></a>
+        </div>
+        <p class="text-xs text-slate-300 font-light leading-relaxed">
+          Automated data collection pipeline extracting multi-year financial performance metrics from web sources for dynamic trend visualization.
+        </p>
+        <div class="flex flex-wrap gap-2 text-xs font-mono text-indigo-400">
+          <span class="bg-slate-800 px-2.5 py-1 rounded">Python</span>
+          <span class="bg-slate-800 px-2.5 py-1 rounded">BeautifulSoup</span>
+          <span class="bg-slate-800 px-2.5 py-1 rounded">Pandas</span>
+        </div>
+      </div>
+
+      <div class="bg-slate-900/50 border border-slate-800 p-6 rounded-2xl space-y-4 hover:border-slate-700 transition-all">
+        <div class="flex justify-between items-start">
+          <h3 class="text-lg font-bold text-white">Tesla Financial Data Engine</h3>
+          <a href="https://github.com/OrastaRakhmatullayeva/tesla-stock-data-yfinance" target="_blank" class="text-slate-400 hover:text-white"><i class="fab fa-github text-lg"></i></a>
+        </div>
+        <p class="text-xs text-slate-300 font-light leading-relaxed">
+          Extracts and structures real-time TSLA historical market data using yfinance, processing raw feeds into analytical dataframes.
+        </p>
+        <div class="flex flex-wrap gap-2 text-xs font-mono text-indigo-400">
+          <span class="bg-slate-800 px-2.5 py-1 rounded">Python</span>
+          <span class="bg-slate-800 px-2.5 py-1 rounded">yfinance</span>
+          <span class="bg-slate-800 px-2.5 py-1 rounded">Data Analysis</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Verified Certificates Section -->
+  <section id="certificates" class="py-16 px-6 max-w-7xl mx-auto border-t border-slate-900">
+    <div class="flex flex-col md:flex-row md:items-center justify-between mb-8">
+      <div>
+        <h2 class="text-2xl font-bold text-white flex items-center space-x-3">
+          <i class="fas fa-certificate text-indigo-400"></i>
+          <span>Verified Certificates & Honors</span>
+        </h2>
+        <p class="text-xs text-slate-400 mt-1">Directly rendered from official image repository</p>
+      </div>
+    </div>
+
+    <!-- Certificate Grid (18 Items) -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Item 1 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/1.jpg" alt="Data Science Course" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">07.07.2026 • DSJ23217026100107</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Data Science Professional Course</h3>
+          <p class="text-xs text-slate-400">Covers essential data analysis techniques and foundational machine learning principles.</p>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/2.jpg" alt="Science Conference" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">17.04.2026 • ID: 19703/A1</span>
+          <h3 class="text-sm font-bold text-white leading-snug">International Scientific Conference</h3>
+          <p class="text-xs text-slate-400">Human and Digital Agents Paradigms organized by Heirs of Mirzo Ulugbek.</p>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/3.jpg" alt="ICTWEEK 2025" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">ICTWEEK 2025</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Certificate of Appreciation</h3>
+          <p class="text-xs text-slate-400">Coordinating the 'AI in Digital Education: From Vision to Impact' forum.</p>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/4.jpg" alt="Zakovat 2023" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">06.12.2023</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Zakovat Intellectual Game</h3>
+          <p class="text-xs text-slate-400">Active participation in intellectual competitions representing INHA University.</p>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/5.jpg" alt="University of Michigan" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">Jul 18, 2025 • Coursera</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Python Basics</h3>
+          <p class="text-xs text-slate-400">Authorized by University of Michigan covering foundational programming logic.</p>
+        </div>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/6.jpg" alt="DeepLearning.AI" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">Apr 7, 2025 • DeepLearning.AI</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Generative AI for Everyone</h3>
+          <p class="text-xs text-slate-400">Authorized course by Andrew Ng on generative systems and LLM workflows.</p>
+        </div>
+      </div>
+
+      <!-- Item 7 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/7.jpg" alt="IBM" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">Apr 9, 2025 • IBM</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Machine Learning Introduction</h3>
+          <p class="text-xs text-slate-400">Authorized by IBM covering supervised and unsupervised learning algorithms.</p>
+        </div>
+      </div>
+
+      <!-- Item 8 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/8.jpg" alt="Google Cloud" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">Apr 15, 2025 • Google Cloud</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Responsible AI Principles</h3>
+          <p class="text-xs text-slate-400">Applying ethical AI principles within Google Cloud infrastructure.</p>
+        </div>
+      </div>
+
+      <!-- Item 9 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/9.jpg" alt="Google Cloud Alternate" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">Apr 15, 2025 • Google Cloud</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Responsible AI Verification</h3>
+          <p class="text-xs text-slate-400">Verified completion record for Google Cloud AI ethics coursework.</p>
+        </div>
+      </div>
+
+      <!-- Item 10 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/10.jpg" alt="Yosh Kitobxon" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">2019 • Youth Union</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Yosh Kitobxon Regional Award</h3>
+          <p class="text-xs text-slate-400">Regional honors in the literature competition across Qashqadaryo region.</p>
+        </div>
+      </div>
+
+      <!-- Item 11 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/11.jpg" alt="Coursera Project" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">Apr 11, 2025 • Coursera</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Introduction to Python</h3>
+          <p class="text-xs text-slate-400">Guided project certificate authorized by Coursera Project Network.</p>
+        </div>
+      </div>
+
+      <!-- Item 12 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/12.jpg" alt="INHA Promotion" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">19.03.2025 • INHA University</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Student Promotion Group Award</h3>
+          <p class="text-xs text-slate-400">Recognition by Rector Bobur Abdullaev for active promotion of INHA values.</p>
+        </div>
+      </div>
+
+      <!-- Item 13 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/13.jpg" alt="DataCamp Logistics" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">04.02.2023 • DataCamp</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Logistics & Service Operator</h3>
+          <p class="text-xs text-slate-400">Vocational training completion certificate from DataCamp Academy.</p>
+        </div>
+      </div>
+
+      <!-- Item 14 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/14.jpg" alt="Inclusive IT Camp" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">30.08.2024 • Inclusive IT</span>
+          <h3 class="text-sm font-bold text-white leading-snug">National Inclusive IT Camp</h3>
+          <p class="text-xs text-slate-400">Active participation in No-Coding technologies track during IT camp.</p>
+        </div>
+      </div>
+
+      <!-- Item 15 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/15.jpg" alt="AI Girls Bootcamp" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">Youth Affairs Agency</span>
+          <h3 class="text-sm font-bold text-white leading-snug">AI Girls BootCamp Certificate</h3>
+          <p class="text-xs text-slate-400">Organized by Youth Affairs Agency for active participation in AI workshops.</p>
+        </div>
+      </div>
+
+      <!-- Item 16 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/16.jpg" alt="Best Initiative Team" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">AI Girls BootCamp</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Most Initiative Team Award</h3>
+          <p class="text-xs text-slate-400">Awarded for outstanding teamwork during the AI quest challenge.</p>
+        </div>
+      </div>
+
+      <!-- Item 17 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/17.jpg" alt="Volleyball Diploma" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">1st Place • Sports</span>
+          <h3 class="text-sm font-bold text-white leading-snug">Volleyball Tournament Diploma</h3>
+          <p class="text-xs text-slate-400">Secured 1st place in the team volleyball tournament during youth camp.</p>
+        </div>
+      </div>
+
+      <!-- Item 18 -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all group">
+        <div class="h-48 bg-slate-950 overflow-hidden relative">
+          <img src="https://raw.githubusercontent.com/OrastaRakhmatullayeva/certificates/main/18.jpg" alt="UCraft MUN" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-5 space-y-2">
+          <span class="text-[10px] font-mono text-indigo-400">15.06.2025 • Delegate</span>
+          <h3 class="text-sm font-bold text-white leading-snug">UCraft Model United Nations</h3>
+          <p class="text-xs text-slate-400">Active participation as Sweden delegate formulating international policy resolutions.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 border-t border-slate-900 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+      <p>© 2026 Rakhmatullaeva Orasta. All rights reserved.</p>
+      <div class="flex space-x-6">
+        <a href="https://github.com/OrastaRakhmatullayeva" target="_blank" class="hover:text-slate-300">GitHub</a>
+        <a href="https://www.linkedin.com/in/orasta-raxmatullayeva-bab491386" target="_blank" class="hover:text-slate-300">LinkedIn</a>
+        <a href="mailto:orastaraxmatullayeva22@gmail.com" class="hover:text-slate-300">Email</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
